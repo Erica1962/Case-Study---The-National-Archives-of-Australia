@@ -1,9 +1,13 @@
 * Text */
-h1, h2, h3 , h4, h5, h6 {
-  font-family: 'Anton', sans-serif;
+h1 {
+    font-size: 12px !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 p {
-  font-family: 'Jura', sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 14px !important;
+  padding-top: 0.5rem;
 }
 
 /* Navigation bar */
@@ -53,21 +57,107 @@ p {
 
 /* Jumbotron  */
 .jumbotron {
-    background-image: url(../images/rockOn_dark.jpg);
+    background-image: url(../images/herobackground.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: calc(100vh - 25px);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
+    padding-left: 13.5rem;
+ 
   }
   
   /* Jumbotron copy */
   .jumboCopy {
-    width: 70%;
-    min-width: 500px;
-    max-width: 700px;
-    color: white;
-    text-align: center;
+    width: 50%;
+  
+    
+    color: black;
+    text-align: left;
+    
+  }
+
+  h2 {
+    font-size: 35px !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-top: 2rem;
+  }
+  h3 {
+    font-size: 25px;
+    padding-top: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+  h4 {
+    font-size: 20px;
+    padding-top: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    
   }
   
+  .btn {
+    background-color: #1b1b1b;
+    font-size: small;
+  }
+
+
+  .container{
+    display: flex;
+    
+    justify-content: left;
+ 
+   width: 68%;
+    gap: 5rem;
+    padding-top: 2rem;
+
+  }
+  .navycontentCopy {
+    background-color: #33414F;
+   
+    width: 100%;
+    height: fit-content;
+    background-size: cover;
+    z-index: 10;
+    padding-bottom: 2rem;
+  }
+  h5 {
+    color: #F0F7FF;
+    font-size: 20px;
+    padding-top: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 12.5rem;
+  }
+  h6 {
+    color: #F0F7FF;
+    font-family:Arial, Helvetica, sans-serif;
+  font-size: 14px !important;
+  padding-left: 12.5rem;
+  padding-right: 13.5rem;
+  padding-top: 1.5rem;
+  font-weight: lighter;
+  }
+
+  #designprocess {
+    background-image: url(../images/naaimage.png);
+    
+  }
+
+  #background2{
+    background-image: url(../images/backgroundtheproblem.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    display: flex;
+  }
+
+  .copyleft {
+    padding-left: 12.5rem;
+    
+
+  }
+
+  .copyright{
+    padding-right: 12.5rem;
+  }
