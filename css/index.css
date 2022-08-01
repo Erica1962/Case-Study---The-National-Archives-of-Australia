@@ -67,7 +67,7 @@ p {
     padding-left: 13.5rem;
  
   }
-  
+
   /* Jumbotron copy */
   .jumboCopy {
     width: 50%;
@@ -76,6 +76,12 @@ p {
     color: black;
     text-align: left;
     
+  }
+  .rounded {
+    display: block;
+  max-width: 70%;
+  height: auto;
+  transform: translate( 4rem, 3rem);
   }
 
   h2 {
@@ -107,10 +113,9 @@ p {
     display: flex;
     
     justify-content: left;
- 
-   width: 68%;
-    gap: 5rem;
-    padding-top: 2rem;
+padding-bottom: 2rem;
+padding-right: -10rem;
+padding-top: 3rem;
 
   }
   .navycontentCopy {
@@ -139,25 +144,77 @@ p {
   font-weight: lighter;
   }
 
-  #designprocess {
-    background-image: url(../images/naaimage.png);
+  .rounded .mx-auto {
     
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: translate( -3rem, 1rem);
+    display: flex;
   }
 
   #background2{
     background-image: url(../images/backgroundtheproblem.png);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     
     display: flex;
   }
 
+
   .copyleft {
     padding-left: 12.5rem;
-    
-
+    width: 68%;
+ padding-top: 3rem;
+padding-right: 3rem;
+padding-bottom: 3rem;
   }
 
   .copyright{
     padding-right: 12.5rem;
+    width: 68%;
+    padding-top: 3rem;
   }
+
+
+  h7 {
+    color: #1b1b1b;
+    font-size: 20px;
+    padding-top: 3rem;
+    font-family:'Times New Roman', Times, serif;
+    padding-left: 12.5rem;
+    padding-top: 3rem;
+  }
+  h8 {
+    color: #1b1b1b;
+    font-family:Arial, Helvetica, sans-serif;
+  font-size: 14px !important;
+  padding-left: 12.5rem;
+  padding-right: 13.5rem;
+  padding-top: 3rem;
+  font-weight: lighter;
+  
+  }
+  li{
+    padding-left: 15rem;
+  }
+
+h9{
+  color: #1b1b1b;
+  font-size: 16px;
+  padding-top: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 15rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+}
+h10{
+  padding-left: 15rem;
+  padding-right: 15rem;
+  color: #1b1b1b;
+  font-size: 14px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
