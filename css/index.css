@@ -147,7 +147,7 @@ p {
   font-weight: lighter;
   }
 
-  .designimage {
+  #designimage {
     
     background-size: contain;
     background-repeat: no-repeat;
@@ -181,27 +181,39 @@ padding-bottom: 3rem;
     padding-left: 5rem;
   }
 
+  .copycenter{
+    display: center;
+    padding-left: 9rem;
+    padding-right: 9rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
 
   h7 {
     color: #1b1b1b;
     font-size: 20px;
     padding-top: 3rem;
     font-family:'Times New Roman', Times, serif;
-    padding-left: 12.5rem;
-    padding-top: 3rem;
+    
   }
   h8 {
     color: #1b1b1b;
     font-family:Arial, Helvetica, sans-serif;
   font-size: 14px !important;
-  padding-left: 12.5rem;
+  
   padding-right: 13.5rem;
   padding-top: 3rem;
   font-weight: lighter;
   
   }
+  .indentcontent{
+padding-left: 2rem;
+padding-right: 2rem;
+  }
+
+
   li{
-    padding-left: 15rem;
+    padding-left: 6rem;
   }
 
 h9{
@@ -209,14 +221,14 @@ h9{
   font-size: 16px;
   padding-top: 3rem;
   font-family: Arial, Helvetica, sans-serif;
-  padding-left: 15rem;
+  
   padding-top: 3rem;
   padding-bottom: 3rem;
 
 }
 h10{
-  padding-left: 15rem;
-  padding-right: 15rem;
+  
+  padding-right: 20rem;
   color: #1b1b1b;
   font-size: 14px;
   padding-top: 3rem;
